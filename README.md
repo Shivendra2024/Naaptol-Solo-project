@@ -11,8 +11,6 @@ Naaptol Mobile and Tablets Automation Overview This project automates the functi
 
 Project Structure Framework: Selenium WebDriver, Cucumber (BDD), Maven Programming Language: Java Test Runner: JUnit Reports: Extent Reports Build Tool: Maven Features Automated Product Listing – Validate that all products under the "Mobile and Tablets" section are displayed. Product Search – Search for specific products and verify that search results are accurate. Add to Cart – Select products and add them to the shopping cart. Checkout Flow – Automate the entire checkout process. Assertions – Validate that appropriate actions (e.g., correct product added to cart) have been performed using assertions. Screenshots – Capture screenshots on test failures and success. Prerequisites Before running the tests, make sure you have the following installed on your system:
 
-bash Copy code git clone https://github.com/shivu00777/Selenium_BDD_Cucumber_Project.git Navigate to the project directory:
-
 bash Copy code cd naaptol-automation Import the project into your IDE (Eclipse/IntelliJ) as a Maven project.
 
 Run the following Maven command to install the dependencies:
